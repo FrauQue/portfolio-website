@@ -4,6 +4,7 @@ Primary Color Petrol: #195973
 Secondary Color Light Petrol: #0388a6
 Tertiary Color Pink: #bf046b
 Highlight Color Yellow: #d9a404
+Light for header: #e9eff2
 
 favicons:
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -13,8 +14,6 @@ favicons:
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-
-
 */
 body {
   background-color: ffffff;
@@ -128,4 +127,26 @@ a:focus {
   background-color: #0388a6;
   color: #ffffff;
   border: 2px solid #0388a6;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #195973; }
+
+
+
+
+
+header {
+  background-color: #ffffff;
+padding: 10px;  /* opacity: 0.3; */
+margin: 10px;
+/* border-bottom: 2px solid #195973; */
 }
