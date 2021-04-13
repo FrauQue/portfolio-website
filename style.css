@@ -83,7 +83,6 @@ a {
 a:hover,
 a:focus {
   color: #0388a6;
-  text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
@@ -173,27 +172,21 @@ nav > ul > li {
   /* width: 100% */
 }
 
-/* nav > ul > li > a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #195973;
 }
 
-nav > ul > li > a:hoover {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
+nav > ul > li > a:hover {
   color: #0388a6;
-  text-decoration: underline
 }
 
 nav > ul > li > a:active {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
   color: #0388a6;
-  text-decoration: underline*/
+  text-decoration: underline;
+}
 
 header {
   background-color: #ffffff;
