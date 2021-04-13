@@ -80,7 +80,8 @@ a {
   /* No underlining */
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: #0388a6;
   text-decoration: underline;
   /* Underlining when hovering over a link */
@@ -96,13 +97,7 @@ a:active {
   color: #bf046b;
 }
 
-a:hover,
-a:focus {
-  color: #0388a6;
-  text-decoration: underline;
-}
-
-.button, .button:visited, .button.cv {
+.button, .button:visited {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #195973;
@@ -119,8 +114,9 @@ a:focus {
   text-transform: uppercase;
 }
 
-.button:hover, .button:focus, .button:active, .button.cv {
+.button:hover, .button:focus, .button:active {
   background-color: #0388a6;
+  color: #ffffff;
   text-decoration: none;
 }
 
