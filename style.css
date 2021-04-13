@@ -16,12 +16,12 @@ favicons:
 <meta name="theme-color" content="#ffffff">
 */
 body {
-  background-color: ffffff;
+  background-color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: ##4a4a4a
+  color: #4a4a4a;
 }
 
 #home-page {}
@@ -80,9 +80,9 @@ a {
   /* No underlining */
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: #0388a6;
-  text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
@@ -96,13 +96,7 @@ a:active {
   color: #bf046b;
 }
 
-a:hover,
-a:focus {
-  color: #0388a6;
-  text-decoration: underline;
-}
-
-.button, .button:visited, .button.cv {
+.button, .button:visited {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #195973;
@@ -119,8 +113,9 @@ a:focus {
   text-transform: uppercase;
 }
 
-.button:hover, .button:focus, .button:active, .button.cv {
+.button:hover, .button:focus, .button:active {
   background-color: #0388a6;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -160,7 +155,7 @@ a:focus {
   text-align: center; /* centers text */
   font-family: 'Arvo', serif;
   line-height: 1.4;
-  color: #195973
+  color: #195973;
 }
 
 .logo {
@@ -177,27 +172,21 @@ nav > ul > li {
   /* width: 100% */
 }
 
-/* nav > ul > li > a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #195973;
 }
 
-nav > ul > li > a:hoover {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
+nav > ul > li > a:hover {
   color: #0388a6;
-  text-decoration: underline
 }
 
 nav > ul > li > a:active {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
   color: #0388a6;
-  text-decoration: underline*/
+  text-decoration: underline;
+}
 
 header {
   background-color: #ffffff;
@@ -206,4 +195,20 @@ header {
   /* opacity: 0.3; */
   margin: 10px;
   /* border-bottom: 2px solid #195973; */
+}
+
+.youtube-video {
+  width: 560px; 
+  height: 315px;
+}
+
+@media screen and (max-width: 600px) {
+  .youtube-video {
+    width: 100%;
+  }
+}
+
+
+.margin-top-bottom-10 {
+  margin: 10px 0;
 }
