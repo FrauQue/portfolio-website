@@ -21,7 +21,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: ##4a4a4a
+  color: #4a4a4a;
 }
 
 #home-page {}
@@ -157,10 +157,10 @@ a:focus {
 }
 
 #hero h1 {
-  text-align: center;; /* centers text */
+  text-align: center; /* centers text */
   font-family: 'Arvo', serif;
   line-height: 1.4;
-  color: #195973
+  color: #195973;
 }
 
 .logo {
