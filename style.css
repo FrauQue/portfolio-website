@@ -75,11 +75,11 @@ h4 {
 h5 {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 p {
-  margin-top: .25em 0;
+  margin-bottom: ;
 }
 
 
@@ -160,9 +160,6 @@ a:active {
   margin-top: 2,25em 0;
 }
 
-#ink .row {
-  padding-bottom: 25px;
-}
 
 #hero h1 {
   text-align: center; /* center text */
@@ -194,6 +191,10 @@ a:active {
   color: #4a4a4a;
 }
 
+#work h2 {
+  margin-top: 100px;
+}
+
 #work p {
   color: #4a4a4a;
   margin-bottom: 1.25em;
@@ -205,13 +206,14 @@ padding-top: 20px;
 }
 
 #contact h2 {
-  text-align: left; /* left text */
+  text-align: center; /* left text */
   font-family: 'Arvo', serif;
   line-height: 1.4;
   color: #ffffff;
 }
 
 #contact p {
+text-align: center;
   color: #ffffff;
   font-weight: bold;
 }
@@ -233,6 +235,10 @@ padding-top: 20px;
   color: #195973;
 }
 
+#about h3 {
+  color: #195973;
+}
+
 #about ul > li {
   color: #195973;
 }
@@ -250,9 +256,18 @@ padding-top: 20px;
   margin: .25em 0;
 }
 
+#wingbuddy h1 {
+  margin-top: 100px;
+}
+
+
 #ink h1, h2, h3, h4, h5 {
   color: #4a4a4a;
   margin: .25em 0;
+}
+
+#ink h1 {
+    margin-top: 100px;
 }
 
 .logo {
@@ -322,6 +337,18 @@ main {
 
 .margin-top-30 {
   margin: 30px 0;
+}
+
+.margin-top-15 {
+  margin: 15px 0;
+}
+
+.margin-top-60 {
+  margin: 60px 0;
+}
+
+.center {
+  text-align: center;
 }
 
 .copyright {
