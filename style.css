@@ -2,6 +2,7 @@
 Colors used:
 Primary Color Petrol: #195973
 Secondary Color Light Petrol: #0388a6
+      #25b4d5
 Tertiary Color Pink: #bf046b
 Highlight Color Yellow: #d9a404
 Light for header: #e9eff2
@@ -94,18 +95,18 @@ a {
 }
 
 a:hover, a:focus {
-  color: #0388a6;
+  color: #25b4d5;
   /* Underlining when hovering over a link */
 }
 
 a:visited {
   /* visited link */
-  color: #0388a6;
+  color: #25b4d5;
 }
 
 a:active {
   /* selected link */
-  color: #0388a6;
+  color: #25b4d5;
 }
 
 .button, .button:visited {
@@ -126,8 +127,9 @@ a:active {
 }
 
 .button:hover, .button:focus, .button:active {
-  background-color: #0388a6;
+  background-color: #25b4d5;
   color: #ffffff;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -138,9 +140,9 @@ a:active {
 }
 
 .button.contact:hover, .button:focus, .button:active {
-  background-color: #ffffff;
-  opacity: 0.5;
-  color: #195973;
+  background-color: #25b4d5;
+  /* opacity: 0.5; */
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -257,7 +259,7 @@ text-align: center;
 }
 
 #wingbuddy h1 {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 
@@ -267,7 +269,7 @@ text-align: center;
 }
 
 #ink h1 {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .logo {
@@ -288,32 +290,32 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #195973;
+  color: #ffffff;
 }
 
 nav > ul > li > a:hover {
-  color: #0388a6;
+  color: #25b4d5;
 }
 
 nav > ul > li > a:active {
-  color: #0388a6;
+  color: #25b4d5;
   text-decoration: underline;
 }
 
 .active-link {
-  color: #0388a6;
+  color: #25b4d5;
   text-decoration: underline;
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #195973;
   position: fixed;
   width: 100%;
   text-align: center;
   padding: 20px 10px 10px 10px;
   /* opacity: 0.3; */
-  margin: 0px 10px 0px 10px;
-  /*border-bottom: 2px solid #195973;*/
+  margin: 0px 0px 0px 0px;
+/* border-bottom: 1px solid #195973;*/
 }
 
 main {
