@@ -1,6 +1,7 @@
 /*
 Colors used:
 Primary Color Petrol: #195973
+font: #081e26
 Secondary Color Light Petrol: #0388a6
       #25b4d5
 Tertiary Color Pink: #bf046b
@@ -27,7 +28,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
-  color: #4a4a4a;
+  color: #081e26;
 }
 
 #home-page {}
@@ -124,6 +125,7 @@ a:active {
   /* width of the border, type, color */
   transition: 0.2s opacity;
   text-transform: uppercase;
+
 }
 
 .button:hover, .button:focus, .button:active {
@@ -165,8 +167,9 @@ a:active {
 
 #hero h1 {
   text-align: center; /* center text */
+  font-size: 2.50em;
   font-family: 'Arvo', serif;
-  line-height: 1,4;
+  line-height: 1.0;
   color: #195973;
 }
 
@@ -177,6 +180,7 @@ a:active {
   line-height: 1.4;
   color: #195973;
 }
+
 
 #hero h3 {
   margin: .5em 0;
@@ -190,7 +194,8 @@ a:active {
 }
 
 #work h3 {
-  color: #4a4a4a;
+  color: #081e26;
+  margin-top: 0;
 }
 
 #work h2 {
@@ -198,7 +203,7 @@ a:active {
 }
 
 #work p {
-  color: #4a4a4a;
+  color: #081e26;
   margin-bottom: 1.25em;
 }
 
@@ -246,15 +251,17 @@ text-align: center;
 }
 
 #slogan p{
-  text-align: center; /* left text */
+  text-align: center; /* center text */
   font-family: 'Arvo', serif;
+  font-size: 18px;
   font-weight: 400
   line-height: 1.4;
   color: #195973;
+  margin-top: 30px;
 }
 
 #wingbuddy h1, h2, h3, h4, h5, p {
-  color: #4a4a4a;
+  color: #081e26;
   margin: .25em 0;
 }
 
@@ -264,7 +271,7 @@ text-align: center;
 
 
 #ink h1, h2, h3, h4, h5 {
-  color: #4a4a4a;
+  color: #081e26;
   margin: .25em 0;
 }
 
@@ -355,4 +362,94 @@ main {
 
 .copyright {
   font-weight:none;
+}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  main {
+    padding-top: 99px;
+  }
+
+  #hero span {
+  display: block;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding-left: 15px;
+}
+
+.hero [class*="col-"] {
+  float:right;
+}
+
+
+#about [class*="col-"] {
+  float:right;
+}
+
+#hero [class*="col-"] {
+  padding-left: 30px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+}
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+
+#hero h1 {
+  font-size: 3.5em;
+}
+
+#slogan p{
+  font-size: 22px;
+
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
