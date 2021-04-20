@@ -286,6 +286,7 @@ text-align: center;
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav > ul > li {
