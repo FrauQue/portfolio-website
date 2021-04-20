@@ -370,6 +370,7 @@ main {
 }
 
 .social {
+  margin: 24px;
   width: 30px;
 }
 
@@ -445,12 +446,13 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 99px;
+    padding-top: 60px;
   }
 
   #hero span {
   display: block;
 }
+
 
 .col-md-6 {
   width: 50%;
@@ -458,22 +460,28 @@ Medium devices (640px and larger)
 
 [class*="col-"] {
   float: left;
-  padding-left: 15px;
 }
 
 .hero [class*="col-"] {
   float:right;
 }
 
-
-#about [class*="col-"] {
+.float-right {
   float:right;
 }
 
-#hero [class*="col-"] {
-  padding-left: 30px;
+
+/*#about [class*="col-"] {
+  float:right; */
 }
 
+/* #hero [class*="col-"] {
+  padding-left: 30px;
+}*/
+
+.padding-left-20 {
+  padding-left: 20px
+}
 
 .row::after {
   content: "";
@@ -496,16 +504,21 @@ Large devices (1024px or larger)
 
 #slogan p{
   font-size: 22px;
+}
 
-  .col-lg-7 {
+#work p{
+  font-size: 18px;
+}
+
+.col-lg-7 {
     width: 60%;
   }
 
-  .col-lg-5 {
+.col-lg-5 {
     width: 40%;
   }
 
-  .container {
+.container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
