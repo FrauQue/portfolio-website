@@ -193,6 +193,10 @@ a:active {
   width: 100%;
 }
 
+.banner-image {
+  max-width: 300px;
+}
+
 #work h3 {
   color: #081e26;
   margin-top: 0;
