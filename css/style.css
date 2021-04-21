@@ -456,7 +456,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 60px;
+    padding-top: 99px;
   }
 
   #hero span {
@@ -480,6 +480,10 @@ Medium devices (640px and larger)
   float:right;
 }
 
+.padding-left-20 {
+  padding-left: 20px
+}
+
 
 /*#about [class*="col-"] {
   float:right; */
@@ -489,9 +493,7 @@ Medium devices (640px and larger)
   padding-left: 30px;
 }*/
 
-.padding-left-20 {
-  padding-left: 20px
-}
+
 
 .row::after {
   content: "";
@@ -532,6 +534,10 @@ Large devices (1024px or larger)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.padding-left-20 {
+  padding-left: 20px
 }
 
 }
