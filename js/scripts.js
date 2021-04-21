@@ -1,1 +1,1 @@
-console.log(“Welcome to my self coded Portfolio Site”);
+console.log("Welcome to my self coded Portfolio Site");
