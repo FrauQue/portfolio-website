@@ -1,0 +1,543 @@
+/*
+Colors used:
+Primary Color Petrol: #195973
+font: #081e26
+Secondary Color Light Petrol: #0388a6
+      #25b4d5
+Tertiary Color Pink: #bf046b
+Highlight Color Yellow: #d9a404
+Light for header: #e9eff2
+
+favicons:
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #195973;
+}
+
+#home-page {}
+
+#about-page {}
+
+#ink-page {}
+
+#wingbuddy-page {}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4;
+  color: #195973
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.50em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: .25em 0;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: .25em 0;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.75em;
+  font-weight: 400;
+
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: ;
+}
+
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #195973;
+  text-decoration: none;
+  /* No underlining */
+}
+
+a:hover, a:focus {
+  color: #25b4d5;
+  /* Underlining when hovering over a link */
+}
+
+a:visited {
+  /* visited link */
+  color: #25b4d5;
+}
+
+a:active {
+  /* selected link */
+  color: #25b4d5;
+}
+
+.button, .button:visited {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #195973;
+  color: #ffffff;
+  /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 100px;
+  border-bottom: none;
+  /* width of the border, type, color */
+  transition: 0.8s background-color, color, font-weight;
+  text-transform: uppercase;
+}
+
+.button:hover, .button:focus, .button:active {
+  background-color: #25b4d5;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button.contact, .button.contact:visited {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #195973;
+  transition: 0.8s background-color, color, font-weight;
+}
+
+.button.contact:hover, .button:focus, .button:active {
+  background-color: #25b4d5;
+  /* opacity: 0.5; */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+.line {
+  margin-top: 2.25;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #195973;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #195973;
+  margin-top: 2.25em 0;
+}
+
+
+
+#hero h1 {
+  text-align: center; /* center text */
+  font-size: 2.50em;
+  font-family: 'Arvo', serif;
+  line-height: 1.0;
+  color: #195973;
+}
+
+#work h2 {
+  text-align: left; /* left text */
+  font-family: 'Arvo', serif;
+  font-weight: 400
+  line-height: 1.4;
+  color: #195973;
+}
+
+
+#hero h3 {
+  margin: .5em 0;
+}
+
+#hero {
+  background-color: #ffffff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.banner-image {
+  max-width: 300px;
+}
+
+#work h3 {
+  margin-top: 0;
+
+}
+
+#work h2 {
+  margin-top: 100px;
+}
+
+#work p {
+  margin-bottom: 1.25em;
+}
+
+#contact {
+  padding-top: 20px;
+  background-color: #195973;
+}
+
+#contact h2 {
+  text-align: center; /* left text */
+  font-family: 'Arvo', serif;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+#contact p {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+#about p {
+  text-align: left; /* left text */
+  font-family: 'Arvo', serif;
+  font-weight: 400
+  line-height: 1.4;
+  color: #195973;
+}
+
+#about h2 {
+  text-align: left; /* left text */
+  font-family: 'Arvo', serif;
+  font-weight: 400
+  line-height: 1.4;
+  color: #195973;
+}
+
+#about h3 {
+  color: #195973;
+}
+
+#about ul > li {
+  color: #195973;
+}
+
+#slogan p{
+  text-align: center; /* center text */
+  font-family: 'Arvo', serif;
+  font-size: 18px;
+  font-weight: 400
+  line-height: 1.4;
+  color: #195973;
+  margin-top: 30px;
+}
+
+#wingbuddy h1, h2, h3, h4, h5, p {
+  margin: .25em 0;
+}
+
+#wingbuddy h1 {
+  margin-top: 50px;
+}
+
+
+.problem-illu {
+  max-width: 300px;
+}
+
+#ink h1, h2, h3, h4, h5 {
+  margin: .25em 0;
+}
+
+#ink h1 {
+    margin-top: 50px;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  /* width: 100% */
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+nav > ul > li > a:hover {
+  color: #25b4d5;
+}
+
+nav > ul > li > a:active {
+  color: #25b4d5;
+  text-decoration: underline;
+}
+
+.active-link {
+  color: #25b4d5;
+  text-decoration: underline;
+}
+
+header {
+  background-color: #195973;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+  /* opacity: 0.3; */
+  margin: 0px 0px 0px 0px;
+/* border-bottom: 1px solid #195973;*/
+}
+
+main {
+  padding-top: 120px;
+}
+
+.youtube-video {
+  width: 560px;
+  height: 315px;
+}
+
+@media screen and (max-width: 600px) {
+  .youtube-video {
+    width: 100%;
+  }
+}
+
+.margin-top-bottom-10 {
+  margin: 10px 0;
+}
+
+.margin-top-30 {
+  margin: 30px 0;
+}
+
+.margin-top-15 {
+  margin: 15px 0;
+}
+
+.margin-top-60 {
+  margin: 60px 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.copyright {
+  font-weight:none;
+}
+
+.social {
+  margin: 24px;
+  width: 30px;
+}
+
+/*illustration animation*/
+
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+/*.sun {
+  animation: 4s color-change infinite alternate linear;
+  (the same as above)
+}*/
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation-duration: 25s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+/*.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}*/
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 28s cloud-move-reverse infinite alternate linear;
+}
+
+
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  main {
+    padding-top: 60px;
+  }
+
+  #hero span {
+  display: block;
+}
+
+
+.col-md-6 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.hero [class*="col-"] {
+  float:right;
+}
+
+.float-right {
+  float:right;
+}
+
+
+/*#about [class*="col-"] {
+  float:right; */
+}
+
+/* #hero [class*="col-"] {
+  padding-left: 30px;
+}*/
+
+.padding-left-20 {
+  padding-left: 20px
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+}
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+
+#hero h1 {
+  font-size: 35px;
+}
+
+#slogan p{
+  font-size: 22px;
+}
+
+#work p{
+  font-size: 18px;
+}
+
+.col-lg-7 {
+    width: 60%;
+  }
+
+.col-lg-5 {
+    width: 40%;
+  }
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
