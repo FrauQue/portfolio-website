@@ -80,6 +80,10 @@ h5 {
   font-weight: bold;
 }
 
+p {
+  margin-bottom: ;
+}
+
 
 img {
   width: 100%;
@@ -181,7 +185,7 @@ a:active {
 #work h2 {
   text-align: left; /* left text */
   font-family: 'Arvo', serif;
-  font-weight: 400;
+  font-weight: 400
   line-height: 1.4;
   color: #195973;
 }
@@ -243,7 +247,7 @@ a:active {
 #about p {
   text-align: left; /* left text */
   font-family: 'Arvo', serif;
-  font-weight: 400;
+  font-weight: 400
   line-height: 1.4;
   color: #195973;
 }
@@ -251,7 +255,7 @@ a:active {
 #about h2 {
   text-align: left; /* left text */
   font-family: 'Arvo', serif;
-  font-weight: 400;
+  font-weight: 400
   line-height: 1.4;
   color: #195973;
 }
@@ -268,7 +272,7 @@ a:active {
   text-align: center; /* center text */
   font-family: 'Arvo', serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 400
   line-height: 1.4;
   color: #195973;
   margin-top: 30px;
@@ -510,6 +514,9 @@ Medium devices (640px and larger)
   content: "";
   clear: both;
   display: table;
+}
+
+
 }
 
 
