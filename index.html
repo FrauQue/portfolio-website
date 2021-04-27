@@ -13,13 +13,16 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ad9952f80b.js" crossorigin="anonymous"></script><!-- CDN link hamburger -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
  </head>
 
 
 <body id=home-page>
 	<header>
 		<div class="container">
+      <div class="navtoggle" id="myNavtoggle">
 			<a href="#">
 				<img src="img/illus/Name_white.png" alt="Frauke Führling Logo" class="logo">
 			</a>
@@ -28,9 +31,11 @@
 					<li><a href="index.html" class="active-link">My work</a></li>
 					<li><a href="about.html">About me</a></li>
 					<li><a href="#contact">Get in touch</a></li>
+          <li><a href="javascript.void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-hamburger"></i></a></li>
 				</ul>
 			</nav>
 		</div>
+    </div>
 	</header>
 
   <main>
@@ -51,21 +56,23 @@
 				 </div>
 			 </div>
 		  	  <div class="container">
+            <div class="row">
             <div class="margin-top-30 hero">
-				   <div class="col-md-6 col-lg-7 center">
+				   <div class="col-md-6 col-lg-5 center padding-left-20">
 					 <img src="img/illus/illu_drop_xsmall.svg" alt="Frauke Führling Illustration" class="banner-image">
 				</div>
-        <div class="margin-top-30 hero">
-				  <h1>Moin Moin.</h1>
+        <div class="col-md-6 col-lg-7 center padding-left-20">
+        <h1>Moin Moin.</h1>
 					<h1>I'm Frauke.</h1>
 					<h1>I design.</h1>
 					<div id=slogan>
-						<p>UX Designer based in Berlin with a professional background in graphic design and a passion for functional and beautiful interfaces.</p>
+						<p>UX/UI Designer based in Berlin with a professional background in graphic design and a passion for functional and beautiful interfaces.</p>
 					</div>
           </div>
           </div>
-				</div>
-       </hero>
+          </div>
+          </div>
+			 </hero>
 
 	 <div id="work">
 			<div class="container">
@@ -83,8 +90,7 @@
 							<img src="img/workstartscreens/start_wingbuddy_desktop.png" alt="Wingbuddy">
 						</picture>
 					</div> <!-- end first column imge -->
-					<div class="col-md-6 col-lg-5 padding-left-20 padding-top-10
-          ">
+					<div class="col-md-6 col-lg-5 padding-left-20 padding-top-10">
 						<!-- open first column text -->
 						<h3>Wingbuddy</h3>
 						<p>
@@ -1074,9 +1080,9 @@
       <div class="container">
         <div style="text-align: center;">
           <h2>Get in Touch</h2>
-          <h3>
+          <h4>
             Looking to start a project or need some product advice?
-          </h3>
+          </h4>
           <div class="margin-top-30">
             <a href="mailto:frauke.fuehrling@gmail.com" class="button contact">Email me</a>
           </div>
@@ -1095,6 +1101,7 @@
       </div>
     </footer>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
