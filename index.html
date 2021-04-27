@@ -13,13 +13,16 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ad9952f80b.js" crossorigin="anonymous"></script><!-- CDN link hamburger -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
  </head>
 
 
 <body id=home-page>
 	<header>
 		<div class="container">
+      <div class="navtoggle" id="myNavtoggle">
 			<a href="#">
 				<img src="img/illus/Name_white.png" alt="Frauke Führling Logo" class="logo">
 			</a>
@@ -28,9 +31,11 @@
 					<li><a href="index.html" class="active-link">My work</a></li>
 					<li><a href="about.html">About me</a></li>
 					<li><a href="#contact">Get in touch</a></li>
+          <li><a href="javascript.void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-hamburger"></i></a></li>
 				</ul>
 			</nav>
 		</div>
+    </div>
 	</header>
 
   <main>
@@ -1081,6 +1086,7 @@
       </div>
     </footer>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>

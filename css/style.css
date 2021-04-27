@@ -297,7 +297,7 @@ a:active {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 200px;
 }
 
 nav > ul {
@@ -306,10 +306,7 @@ nav > ul {
   margin: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-  /* width: 100% */
-}
+
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -332,11 +329,45 @@ nav > ul > li > a:active {
   text-decoration: underline;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle {
+  position: relative;
+}
+
+/* hamburger menu */
+
+.navtoggle li .icon {
+  position: absolute;
+  padding-right: 0px;
+  margin-top: 0px;
+  right: 0;
+  top: 0px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  /*border-top: 1px solid #25b4d5;*/
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+
 header {
   background-color: #195973;
   position: fixed;
   width: 100%;
-  text-align: center;
   padding: 20px 10px 10px 10px;
   /* opacity: 0.3; */
   margin: 0px 0px 0px 0px;
@@ -344,7 +375,7 @@ header {
 }
 
 main {
-  padding-top: 120px;
+  padding-top: 50px;
 }
 
 .youtube-video {
@@ -451,9 +482,9 @@ main {
 
 
 /* ==============================
-Medium devices (640px and larger)
+Medium devices (650px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 650px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -465,6 +496,7 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
+
   main {
     padding-top: 99px;
   }
@@ -474,6 +506,19 @@ Medium devices (640px and larger)
   display: block;
 }
 
+
+nav > ul > li {
+  display: inline-block;
+  /* width: 100% */
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
 
 .col-md-6 {
   width: 50%;
@@ -499,6 +544,9 @@ Medium devices (640px and larger)
   max-width: 250px;
 }
 
+.logo {
+  max-width: 250px;
+}
 
 /*#about [class*="col-"] {
   float:right; */
