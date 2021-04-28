@@ -378,6 +378,10 @@ main {
   padding-top: 50px;
 }
 
+#about-page main {
+  padding-top: 99px;
+}
+
 .youtube-video {
   width: 560px;
   height: 315px;
@@ -511,11 +515,9 @@ Medium devices (650px and larger)
     margin-top: 4px;
   }
 
-
   main {
     padding-top: 99px;
   }
-
 
   #hero span {
   display: block;
