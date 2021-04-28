@@ -13,12 +13,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ad9952f80b.js" crossorigin="anonymous"></script><!-- CDN link hamburger -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body id=ink-page>
   <header>
     <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
       <a href="index.html">
         <img src="img/illus/Name_white.png" alt="Frauke Führling Logo" class="logo">
       </a>
@@ -27,9 +29,11 @@
           <li><a href="index.html">My work</a></li>
           <li><a href="about.html">About me</a></li>
           <li><a href="#contact">Get in touch</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-hamburger"></i></a></li>
         </ul>
       </nav>
       </div>
+    </div>
   </header>
   <!-- new main -->
   <main>
@@ -111,17 +115,19 @@
                 <div class="row">
                   <h3>Solution</h3>
                   <!-- open two columns (used for text) -->
+                  <div class="row">
                   <p><b>INK! allows the user to search for artist offered exclusive „Wannado“ designs, „Tattoo“ inspirations, artists and studios.</b> To narrow down the search by filtering the relevant factors like distance, styles, ratings, price
                     and artist availability. To check the favourite „Wannado“ design via Augmented Reality to avoid regrets. The app allows the upload of own designs to created mood boards and to share them with artists or others. The user got the
                     chance to get to know the artist better with a detailed overview. Ratings and reviews will help too. Artists and studios can be contacted directly through an intuitive briefing and stay in contact via private message. <b>The app
                       offers the whole process before getting a tattoo including transparent pricing and in-app payment.</b></p>
                 </div> <!-- end first column -->
 
-                <div class="margin-top-30">
+                <div class="margin-top-30 col-md-6 col-lg-5 screens float-right padding-left-20">
                   <picture>
                     <source srcset="img/ink/homescreen_mobile.png" media="(max-width:767px)">
                     <img src="img/ink/homescreen_desktop.png" alt="INK! Homescreens">
                   </picture>
+                </div>
                 </div>
                 <!--close second-->
                 <div class="margin-top-30">
@@ -552,7 +558,7 @@
                               <h3><b>Thanks for Reading!</b></h3>
                             </div>
                             <div class="margin-top-60 center">
-                            <a href="wingbuddy.html" class="button">View <b>Wingbuddy</b> Case Study</a>
+                            <a href="wingbuddy.html" class="button">View next Case Study<b><i>Wingbuddy</i></b></a>
                           </div>
                           </div>
                         </div>
