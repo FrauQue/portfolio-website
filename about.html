@@ -13,23 +13,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ad9952f80b.js" crossorigin="anonymous"></script><!-- CDN link hamburger -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body id=about-page>
   <header>
-    <div class="container">
-      <a href="index.html">
-        <img src="img/illus/Name_white.png" alt="Frauke Führling Logo" class="logo">
-      </a>
+		<div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+			<a href="index.html">
+				<img src="img/illus/Name_white.png" alt="Frauke Führling Logo" class="logo">
+			</a>
       <nav>
         <ul class="navigation">
           <li><a href="index.html">My work</a></li>
           <li><a href="about.html" class="active-link">About me</a></li>
           <li><a href="#contact">Get in touch</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-hamburger"></i></a></li>
         </ul>
       </nav>
     </div>
+  </div>
   </header>
 
 
@@ -37,17 +41,13 @@
     <div id="about">
       <div class="container">
         <div class="row">
+          <div class="col-md-7 col-lg-7 padding-left-20 margin-top-15 float-right">
           <picture>
-            <source srcset="img/my/ick_profile_mobile_1.jpg" media="(max-width:767px)">
-            <img src="img/my/ick_profile_desktop_1.jpg" alt="Frauke Führling">
+            <source srcset="img/my/ick_profile_mobile_final.jpg" media="(max-width:767px)">
+            <img src="img/my/ick_profile_desktop_final.jpg" alt="Frauke Führling">
           </picture>
         </div>
-        <div class="col-md-6 col-lg-5 padding-left-20 float-right">
-          <picture>
-            <source srcset="img/my/ich_tasse_mobile_1.jpg" media="(max-width:767px)">
-            <img src="img/my/ich_tasse_desktop_1copy.jpg" alt="Frauke Führling">
-          </picture>
-        </div>
+
 
 
         <div class="margin-top-30">
@@ -55,39 +55,24 @@
           <p>I was born and raised in Hamburg, where people greet each other with „Moin” or „Moin Moin“ – if they are <b>communicative</b>.
           </p>
           <div class="margin-top-15">
-            <p>From <b>contributing</b> to the school newspaper to <b>developing</b> my own fanzine, flyer and poster for concerts, my <b>enthusiasm</b> for designing began.
-            <div class="margin-top-15">
-              <p>After an intensive and beautiful <b>volunteer</b> year in a facility for disabled people, I decided to study communication design to pursue my <b>love for design</b>. I also <b>co-founded</b> „Viva con Agua“ in 2006 to continue working for a better
-                world. After many years in print, I <b>built up</b> the BILD branch office in Los Angeles in 2013/2014 (BILD? Yeah, I know, however, it is still the highest circulated daily newspaper in Germany and I am
-                thankful for all the experience I gained during my time there) and <b>switched</b> to the digital part of the brand to get closer to my affinity for technology.
-              </p>
-              <div class="margin-top-15">
-                <p>My professional <b>knowledge</b> is based on 15 years of <b>experience</b> as a Communication Designer mostly in the crazy german newspaper business, including positions such as Editor Layout & Editorial Design and Editor Layout & Web Design at
-                  bild.de.
-                  Nevertheless, things change, and I decided to take a step and focus more on my <b>passion</b> to develop user-centric products.
+            <p>From <b>contributing</b> to the school newspaper to <b>developing</b> my own fanzine, flyer and poster for concerts, my <b>enthusiasm</b> for designing began. My professional <b>knowledge</b> is based on 15 years of <b>experience</b> as a Communication Designer mostly in the crazy german newspaper business, including positions such as Editor Layout & Editorial Design and Editor Layout & Web Design at
+                  bild.de. Nevertheless, things <b>change</b>, and I decided to take a step and focus more on my <b>passion</b> to develop user-centric products that will have an positive impact to the world.
                 </p>
                 <div class="margin-top-15">
-                  <p>This led me to where I am now: being an <b>enthusiastic</b> UX Designer with knowledge (always expanding), experience, <b>curiosity</b> as well as <b>strategic thinking</b> and communication skills who love seeing an idea evolve into a comprehensive and
-                  holistic
-                  product which makes life better.
+                  <p>This led me to where I am now: being an <b>enthusiastic</b> UX Designer with knowledge (always expanding), experience, <b>curiosity</b> as well as <b>strategic thinking</b> and communication skills who love seeing an idea evolve into a <b>comprehensive</b> and
+                  <b>holistic</b> product which makes life better.
                 </p>
                 <div class="margin-top-15">
-                <p>I would describe myself as a <b>craft designer</b>, because a design has to put its actual function in the foreground should be pleasant to use and still be beautiful to look at. That’s why I'm constantly thinking about everyday
-                  <b>improvements</b>, even at the most inconvenient times (sleep Frauke, sleep!) and in unusual situations (with my hands in the garden soil). I always notice room for improvement and want to think about and <b>implement</b> them. Not every problem can be solved
-                  with Duct Tape!
-                </p>
-                <div class="margin-top-15">
-                  <p>My favourite ways to reset myself are (watching) soccer, skiing, horseback riding and scuba diving, when I have the <b>opportunity</b> and time.
-                    Check out my CV for more information and of course, I can also send you my graphic design portfolio via email should you want it. <b>Just drop me a line.</b></p>
-                  <div class="margin-top-15">
-                    <p><b>If we work together, you’ll never walk alone.</b></p>
+                  <p>I would describe myself as a <b>craft designer</b>, because a design has to put its actual function in the foreground, should be pleasant to use and still be beautiful to look at. That’s why I'm constantly thinking about everyday
+                    <b>improvements</b>, even at the most inconvenient times (sleep Frauke, sleep!) and in unusual situations (with my hands in the garden soil). I always notice room for improvement and want to think about and <b>implement</b> them. Not every problem can be solved
+                    with Duct Tape... My favourite ways to reset myself are (watching) <b>soccer, skiing, horseback riding and scuba diving,</b> when I have the <b>opportunity</b> and time.
+                      Check out my CV for more information and of course, I can also send you my graphic design portfolio via email should you want it. <b>Just drop me a line.</b></p>
+                    <div class="margin-top-15">
+                      <p><b>If we work together, you’ll never walk alone.</b></p>
                   </div>
                 </div>
               </div>
-              </div>
-            </div>
-          </div>
-        </div>
+           </div>
 
         <div class="margin-top-30">
           <div style="text-align: left;">
