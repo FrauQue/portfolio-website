@@ -6,3 +6,9 @@ function menuToggle() {
     x.className = 'navtoggle';
   }
 }
+
+$( document ).ready(function() {
+  $('.go-to-contact-link').click(function (event) {
+    $('#myNavtoggle').removeClass('responsive');
+  });
+});
