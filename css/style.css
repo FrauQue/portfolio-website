@@ -645,8 +645,6 @@ Large devices (1024px or larger)
 }
 
 
-
-
 .banner-image {
   max-width: 270px;
 }
@@ -664,11 +662,15 @@ Large devices (1024px or larger)
 }
 
 
-
 #hero h1 {
   font-size: 52px;
 }
 
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 }
 
@@ -676,4 +678,10 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
