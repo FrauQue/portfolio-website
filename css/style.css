@@ -422,6 +422,9 @@ main {
   margin-bottom: 60px;
 }
 
+.padding-bottom-30 {
+  padding-bottom: 30px;
+}
 
 .center {
   text-align: center;
@@ -501,7 +504,7 @@ main {
 /* ==============================
 Medium devices (650px and larger)
 ================================= */
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 686px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -621,7 +624,7 @@ Large devices (1024px or larger)
 }
 
 #slogan p{
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.6;
 }
 
@@ -642,11 +645,7 @@ Large devices (1024px or larger)
 }
 
 
-.container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .banner-image {
   max-width: 270px;
@@ -663,6 +662,8 @@ Large devices (1024px or larger)
 .padding-right-20-i {
   padding-right: 20px
 }
+
+
 
 #hero h1 {
   font-size: 52px;
