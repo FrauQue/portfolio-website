@@ -25,7 +25,7 @@ favicons:
 body {
   background-color: #ffffff;
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
   color: #195973;
@@ -33,7 +33,9 @@ body {
 
 #home-page {}
 
-#about-page {}
+#about-page main {
+  padding-top: 99px
+}
 
 #ink-page {}
 
@@ -342,10 +344,10 @@ nav > ul > li > a:active {
 .navtoggle li .icon {
   position: absolute;
   padding-right: 0px;
-  margin-top: 0px;
+  margin-top: -7px;
   right: 0;
-  top: -5px;
-  font-size: 20px;
+  top: 0px;
+  font-size: 24px;
 }
 
 .navtoggle.responsive nav {
@@ -376,10 +378,6 @@ header {
 
 main {
   padding-top: 50px;
-}
-
-#about-page main {
-  padding-top: 99px;
 }
 
 .youtube-video {
@@ -515,9 +513,11 @@ Medium devices (650px and larger)
     margin-top: 4px;
   }
 
+
   main {
     padding-top: 99px;
   }
+
 
   #hero span {
   display: block;
@@ -561,6 +561,10 @@ nav > ul > li {
   padding-left: 20px
 }
 
+.padding-right-20 {
+  padding-right: 20px
+}
+
 .banner-image {
   max-width: 250px;
 }
@@ -572,6 +576,9 @@ nav > ul > li {
 .screens {
   max-width: 400px;
 }
+
+
+
 
 /*#about [class*="col-"] {
   float:right; */
@@ -647,6 +654,14 @@ Large devices (1024px or larger)
 
 .padding-left-20 {
   padding-left: 20px;
+}
+
+.padding-left-20-i {
+  padding-left: 20px
+}
+
+.padding-right-20-i {
+  padding-right: 20px
 }
 
 #hero h1 {
