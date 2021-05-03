@@ -299,7 +299,8 @@ a:active {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 250px;
+  padding-top: 3px;
 }
 
 nav > ul {
@@ -344,10 +345,10 @@ nav > ul > li > a:active {
 .navtoggle li .icon {
   position: absolute;
   padding-right: 0px;
-  margin-top: -7px;
+  margin-top: -5px;
   right: 0;
   top: 0px;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .navtoggle.responsive nav {
@@ -514,7 +515,9 @@ Medium devices (686px and larger)
     padding: 20px 0 13px;
   }
 
-
+  .logo {
+    max-width: 250px;
+  }
 
   nav {
     width: auto;
