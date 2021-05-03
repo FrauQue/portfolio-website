@@ -376,6 +376,10 @@ header {
 /* border-bottom: 1px solid #195973;*/
 }
 
+header .container{
+  max-width: 1800px;
+}
+
 main {
   padding-top: 50px;
 }
@@ -502,13 +506,15 @@ main {
 
 
 /* ==============================
-Medium devices (650px and larger)
+Medium devices (686px and larger)
 ================================= */
 @media only screen and (min-width: 686px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
   }
+
+
 
   nav {
     width: auto;
@@ -572,9 +578,7 @@ nav > ul > li {
   max-width: 250px;
 }
 
-.logo {
-  max-width: 250px;
-}
+
 
 .screens {
   max-width: 400px;
