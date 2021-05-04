@@ -147,7 +147,7 @@ a:active {
 
 /* Layout styling */
 .container {
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .row {
@@ -390,7 +390,7 @@ main {
   height: 315px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 668px) {
   .youtube-video {
     width: 100%;
   }
@@ -516,7 +516,6 @@ Medium devices (686px and larger)
 
   .logo {
     max-width: 250px;
-    padding-left: 20px;
   }
 
   nav {
@@ -581,13 +580,13 @@ nav > ul > li {
   max-width: 250px;
 }
 
-
-
 .screens {
   max-width: 400px;
 }
 
-
+.img-size {
+  max-width: 500px;
+}
 
 
 /*#about [class*="col-"] {
@@ -680,6 +679,10 @@ Large devices (1024px or larger)
   margin-right: auto;
 }
 
+.youtube-video {
+  width: 800px;
+  height: 450px;
+}
 
 }
 
