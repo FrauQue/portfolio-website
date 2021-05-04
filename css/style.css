@@ -312,7 +312,7 @@ nav > ul {
 
 
 nav > ul > li > a {
-  padding-left: 15px;
+  padding-left: 24px;
   text-transform: uppercase;
   font-weight: 700;
   color: #ffffff;
@@ -516,6 +516,7 @@ Medium devices (686px and larger)
 
   .logo {
     max-width: 250px;
+    padding-left: 20px;
   }
 
   nav {
@@ -614,6 +615,10 @@ nav > ul > li {
   margin-right: auto;
 }
 
+.youtube-video {
+  text-align: center;
+}
+
 }
 
 /* ==============================
@@ -677,6 +682,7 @@ Large devices (1024px or larger)
   margin-left: auto;
   margin-right: auto;
 }
+
 
 }
 
