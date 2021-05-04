@@ -385,18 +385,13 @@ main {
   padding-top: 50px;
 }
 
-.figma-prototype {
-  width: 800px;
-  height: 400px;
-}
-
 .youtube-video {
   width: 560px;
   height: 315px;
 }
 
 @media screen and (max-width: 600px) {
-  .figma-prototype, .youtube-video {
+  .youtube-video {
     width: 100%;
   }
 }
