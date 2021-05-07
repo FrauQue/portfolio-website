@@ -12,3 +12,4 @@ $( document ).ready(function() {
     $('#myNavtoggle').removeClass('responsive');
   });
 });
+ 
