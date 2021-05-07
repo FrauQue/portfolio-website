@@ -1,9 +1,9 @@
 /*
 Colors used:
-Primary Color Petrol: #195973
+Primary Color Petrol: #164E65
 font: #081e26
 Secondary Color Light Petrol: #0388a6
-      21A2C0  #21A2C0
+       #21A2C0
 Tertiary Color Pink: #bf046b
 Highlight Color Yellow: #d9a404
 Light for header: #e9eff2
@@ -28,7 +28,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
-  color: #195973;
+  color: #164E65;
 }
 
 #home-page {}
@@ -44,7 +44,7 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Lato', sans-serif;
   line-height: 1.4;
-  color: #195973
+  color: #164E65
 }
 
 h1 {
@@ -87,7 +87,7 @@ img {
 }
 
 a {
-  color: #195973;
+  color: #164E65;
   text-decoration: none;
   /* No underlining */
 }
@@ -110,7 +110,7 @@ a:active {
 .button, .button:visited {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #195973;
+  background-color: #164E65;
   color: #ffffff;
   /* needed to override the default link color */
   font-weight: 400;
@@ -134,7 +134,7 @@ a:active {
 .button.contact, .button.contact:visited {
   display: inline-block;
   background-color: #ffffff;
-  color: #195973;
+  color: #164E65;
   transition: 0.8s background-color, color, font-weight;
 }
 
@@ -160,12 +160,12 @@ a:active {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 25px;
-  border-bottom: 1px solid #195973;
+  border-bottom: 1px solid #164E65;
 }
 
 #work .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #195973;
+  border-bottom: 1px solid #164E65;
   margin-top: 2.25em 0;
 }
 
@@ -176,7 +176,7 @@ a:active {
   font-size: 2.50em;
   font-family: 'Arvo', serif;
   line-height: 1.0;
-  color: #195973;
+  color: #164E65;
 }
 
 #work h2 {
@@ -184,7 +184,7 @@ a:active {
   font-family: 'Arvo', serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #195973;
+  color: #164E65;
 }
 
 
@@ -220,7 +220,7 @@ a:active {
 
 #contact {
   padding-top: 20px;
-  background-color: #195973;
+  background-color: #164E65;
   padding-bottom: 10px;
 }
 
@@ -247,7 +247,7 @@ a:active {
   font-family: 'Arvo', serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #195973;
+  color: #164E65;
 }
 
 #about h2 {
@@ -255,15 +255,15 @@ a:active {
   font-family: 'Arvo', serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #195973;
+  color: #164E65;
 }
 
 #about h3 {
-  color: #195973;
+  color: #164E65;
 }
 
 #about ul > li {
-  color: #195973;
+  color: #164E65;
 }
 
 #slogan p{
@@ -272,7 +272,7 @@ a:active {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
-  color: #195973;
+  color: #164E65;
   margin-top: 30px;
 }
 
@@ -367,13 +367,13 @@ nav > ul > li > a:active {
 
 
 header {
-  background-color: #195973;
+  background-color: #164E65;
   position: fixed;
   width: 100%;
   padding: 20px 0 13px;
   /* opacity: 0.3; */
   margin: 0px 0px 0px 0px;
-/* border-bottom: 1px solid #195973;*/
+/* border-bottom: 1px solid #164E65;*/
 }
 
 header .container{
