@@ -3,7 +3,7 @@ Colors used:
 Primary Color Petrol: #195973
 font: #081e26
 Secondary Color Light Petrol: #0388a6
-      #25b4d5
+      21A2C0  #21A2C0
 Tertiary Color Pink: #bf046b
 Highlight Color Yellow: #d9a404
 Light for header: #e9eff2
@@ -93,18 +93,18 @@ a {
 }
 
 a:hover, a:focus {
-  color: #25b4d5;
+  color: #21A2C0;
   /* Underlining when hovering over a link */
 }
 
 a:visited {
   /* visited link */
-  color: #25b4d5;
+  color: #21A2C0
 }
 
 a:active {
   /* selected link */
-  color: #25b4d5;
+  color: #21A2C0
 }
 
 .button, .button:visited {
@@ -125,7 +125,7 @@ a:active {
 }
 
 .button:hover, .button:focus, .button:active {
-  background-color: #25b4d5;
+  background-color: #21A2C0;
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
@@ -139,7 +139,7 @@ a:active {
 }
 
 .button.contact:hover, .button:focus, .button:active {
-  background-color: #25b4d5;
+  background-color: #21A2C0;
   /* opacity: 0.5; */
   color: #ffffff;
   font-weight: bold;
@@ -156,7 +156,7 @@ a:active {
 }
 
 .line {
-  margin-top: 2.25;
+  margin-top: 0;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 25px;
@@ -234,7 +234,6 @@ a:active {
 #contact p {
   text-align: center;
   color: #ffffff;
-  font-weight: none;
 }
 
 #contact h4 {
@@ -254,7 +253,7 @@ a:active {
 #about h2 {
   text-align: left; /* left text */
   font-family: 'Arvo', serif;
-  font-weight: 400
+  font-weight: 400;
   line-height: 1.4;
   color: #195973;
 }
@@ -319,16 +318,16 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-  color: #25b4d5;
+  color: #21A2C0;
 }
 
 nav > ul > li > a:active {
-  color: #25b4d5;
+  color: #21A2C0;
   text-decoration: underline;
 }
 
 .active-link {
-  color: #25b4d5;
+  color: #21A2C0;
   text-decoration: underline;
 }
 
@@ -359,7 +358,7 @@ nav > ul > li > a:active {
   display: block;
   text-align: center;
   padding: 20px 0;
-  /*border-top: 1px solid #25b4d5;*/
+  /*border-top: 1px solid #21A2C0;*/
 }
 
 .navtoggle.responsive li:last-child {
