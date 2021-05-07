@@ -449,7 +449,7 @@ main {
   max-width: 800px;
 }
 
-/*illustration animation*/
+/*illustration animation
 
 .berlin-illustration {
   width: 100%;
@@ -474,7 +474,7 @@ main {
 /*.sun {
   animation: 4s color-change infinite alternate linear;
   (the same as above)
-}*/
+}
 
 @keyframes cloud-move {
   from {transform: translate(0,50px);}
@@ -491,7 +491,7 @@ main {
 
 /*.cloud-front {
   animation: 30s cloud-move infinite alternate linear;
-}*/
+}
 
 @keyframes cloud-move-reverse {
   from {transform: translate(446px,48px);}
@@ -501,7 +501,7 @@ main {
 .cloud-back {
   animation: 28s cloud-move-reverse infinite alternate linear;
 }
-
+*/
 
 
 
